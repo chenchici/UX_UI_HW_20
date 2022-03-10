@@ -74,12 +74,8 @@ left: 5px;
   height: 900px;
   
 }
-
-.grid-container {
-display: grid;
-grid-template-rows: 350px 180px;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-
+.column {
+height: 280px;
 }
 .mrow {
 flex: 20%;
@@ -108,7 +104,6 @@ margin-top: 50px;
 display:flex;
 width:auto;
 height: 250px;
-grid-column: 5 / span 4;
 object-fit: contain;
 
 }
@@ -116,6 +111,7 @@ object-fit: contain;
 height: 220px;
 width: auto;
 object-fit: contain;
+display: block;
 
 }
 
