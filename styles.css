@@ -280,6 +280,7 @@ color: #280F32;
 
 #button {
   margin-left: 50px;
+  margin-top: 50px;
   background-color: #9146FF;
   border-radius: 20px;
   height: 50px;
@@ -288,9 +289,14 @@ color: #280F32;
   font-size: 36px;
   padding-top: 10px;
  
-  
   }
   .button:hover {
-  box-shadow: 5px 10px 15px white;
-  
+  box-shadow: 5px 10px 15px white; 
+  }
+
+  .main h3 {
+    margin-left: 80px;
+  }
+  .main i {
+    margin-left: 20px;
   }
